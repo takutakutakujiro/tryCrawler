@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="web-crawler_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170325224359"/>
+	<dependencies>
+		<module organisation="edu.uci.ics" name="crawler4j">
+			<revision name="4.1" status="release" pubdate="20150203165633" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/yasserg/crawler4j" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4100" time="0" location="/Users/nishida-takuro/.ivy2/cache/edu.uci.ics/crawler4j/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/edu/uci/ics/crawler4j/4.1/crawler4j-4.1.pom"/>
+				<caller organisation="default" name="web-crawler_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="crawler4j" type="jar" ext="jar" status="no" details="" size="131410" time="0" location="/Users/nishida-takuro/.ivy2/cache/edu.uci.ics/crawler4j/jars/crawler4j-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/edu/uci/ics/crawler4j/4.1/crawler4j-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-parsers">
+			<revision name="1.5" status="release" pubdate="20140210064026" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tika.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8995" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.tika/tika-parsers/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tika/tika-parsers/1.5/tika-parsers-1.5.pom"/>
+				<caller organisation="edu.uci.ics" name="crawler4j" conf="default, compile, runtime, master" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="4.1"/>
+				<artifacts>
+					<artifact name="tika-parsers" type="bundle" ext="jar" status="no" details="" size="523677" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.tika/tika-parsers/bundles/tika-parsers-1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-parsers/1.5/tika-parsers-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.uwyn" name="jhighlight">
+			<revision name="1.0" status="release" pubdate="20060803001917" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://jhighlight.dev.java.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="CDDL, v1.0" url="http://www.opensource.org/licenses/cddl1.php"/>
+				<license name="LGPL, v2.1 or later" url="http://www.opensource.org/licenses/lgpl-license.php"/>
+				<metadata-artifact status="no" details="" size="3056" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.uwyn/jhighlight/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/uwyn/jhighlight/1.0/jhighlight-1.0.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="jhighlight" type="jar" ext="jar" status="no" details="" size="93310" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.uwyn/jhighlight/jars/jhighlight-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/uwyn/jhighlight/1.0/jhighlight-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.juniversalchardet" name="juniversalchardet">
+			<revision name="1.0.3" status="release" pubdate="20110920023824" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://juniversalchardet.googlecode.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Mozilla Public License 1.1 (MPL 1.1)" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<metadata-artifact status="no" details="" size="2716" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.googlecode.juniversalchardet/juniversalchardet/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="juniversalchardet" type="jar" ext="jar" status="no" details="" size="220813" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.googlecode.juniversalchardet/juniversalchardet/jars/juniversalchardet-1.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="rome" name="rome">
+			<revision name="0.9" status="release" pubdate="20070512052630" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://rome.dev.java.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3295" time="0" location="/Users/nishida-takuro/.ivy2/cache/rome/rome/ivy-0.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/rome/rome/0.9/rome-0.9.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="0.9" rev-constraint-default="0.9" rev-constraint-dynamic="0.9" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="rome" type="jar" ext="jar" status="no" details="" size="208025" time="0" location="/Users/nishida-takuro/.ivy2/cache/rome/rome/jars/rome-0.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/rome/rome/0.9/rome-0.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jdom" name="jdom">
+			<revision name="1.0" status="release" pubdate="20051222212056" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<metadata-artifact status="no" details="" size="2901" time="0" location="/Users/nishida-takuro/.ivy2/cache/jdom/jdom/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0.pom"/>
+				<caller organisation="rome" name="rome" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.9"/>
+				<artifacts>
+					<artifact name="jdom" type="jar" ext="jar" status="no" details="" size="153253" time="0" location="/Users/nishida-takuro/.ivy2/cache/jdom/jdom/jars/jdom-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="de.l3s.boilerpipe" name="boilerpipe">
+			<revision name="1.1.0" status="release" pubdate="20101104054113" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/boilerpipe/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache License 2.0"/>
+				<metadata-artifact status="no" details="" size="3331" time="0" location="/Users/nishida-takuro/.ivy2/cache/de.l3s.boilerpipe/boilerpipe/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="boilerpipe" type="jar" ext="jar" status="no" details="" size="92027" time="0" location="/Users/nishida-takuro/.ivy2/cache/de.l3s.boilerpipe/boilerpipe/jars/boilerpipe-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.drewnoakes" name="metadata-extractor">
+			<revision name="2.6.2" status="release" pubdate="20120720052102" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/metadata-extractor/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3479" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.drewnoakes/metadata-extractor/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="metadata-extractor" type="jar" ext="jar" status="no" details="" size="211185" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.drewnoakes/metadata-extractor/jars/metadata-extractor-2.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.8.1" status="release" pubdate="20061007210232" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xerces.apache.org/xerces2-j/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3079" time="0" location="/Users/nishida-takuro/.ivy2/cache/xerces/xercesImpl/ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.pom"/>
+				<caller organisation="com.drewnoakes" name="metadata-extractor" conf="compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="2.6.2"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1212965" time="0" location="/Users/nishida-takuro/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.3.03" status="release" pubdate="20060513040702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/#external" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2466" time="0" location="/Users/nishida-takuro/.ivy2/cache/xml-apis/xml-apis/ivy-1.3.03.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom"/>
+				<caller organisation="xerces" name="xercesImpl" conf="compile, runtime" rev="1.3.03" rev-constraint-default="1.3.03" rev-constraint-dynamic="1.3.03" callerrev="2.8.1"/>
+				<artifacts>
+					<artifact name="xml-apis" type="jar" ext="jar" status="no" details="" size="195119" time="0" location="/Users/nishida-takuro/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.3.03.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.adobe.xmp" name="xmpcore">
+			<revision name="5.1.2" status="release" pubdate="20120703191504" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.adobe.com/devnet/xmp.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="The BSD License" url="http://www.adobe.com/devnet/xmp/library/eula-xmp-library-java.html"/>
+				<metadata-artifact status="no" details="" size="2566" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.adobe.xmp/xmpcore/ivy-5.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.pom"/>
+				<caller organisation="com.drewnoakes" name="metadata-extractor" conf="compile, runtime" rev="5.1.2" rev-constraint-default="5.1.2" rev-constraint-dynamic="5.1.2" callerrev="2.6.2"/>
+				<artifacts>
+					<artifact name="xmpcore" type="jar" ext="jar" status="no" details="" size="117333" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.adobe.xmp/xmpcore/jars/xmpcore-5.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.mp4parser" name="isoparser">
+			<revision name="1.0-RC-1" status="release" pubdate="20120324173250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/mp4parser/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3518" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.googlecode.mp4parser/isoparser/ivy-1.0-RC-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.0-RC-1/isoparser-1.0-RC-1.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.0-RC-1" rev-constraint-default="1.0-RC-1" rev-constraint-dynamic="1.0-RC-1" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="isoparser" type="jar" ext="jar" status="no" details="" size="521237" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.googlecode.mp4parser/isoparser/jars/isoparser-1.0-RC-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.0-RC-1/isoparser-1.0-RC-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjrt">
+			<revision name="1.6.11" status="release" pubdate="20110517061717" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.aspectj.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2510" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.aspectj/aspectjrt/ivy-1.6.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.6.11/aspectjrt-1.6.11.pom"/>
+				<caller organisation="com.googlecode.mp4parser" name="isoparser" conf="compile, runtime" rev="1.6.11" rev-constraint-default="1.6.11" rev-constraint-dynamic="1.6.11" callerrev="1.0-RC-1"/>
+				<artifacts>
+					<artifact name="aspectjrt" type="jar" ext="jar" status="no" details="" size="116219" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.aspectj/aspectjrt/jars/aspectjrt-1.6.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.6.11/aspectjrt-1.6.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-debug-all">
+			<revision name="4.1" status="release" pubdate="20121015003958" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3959" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.ow2.asm/asm-debug-all/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="asm-debug-all" type="jar" ext="jar" status="no" details="" size="342664" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.ow2.asm/asm-debug-all/jars/asm-debug-all-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ccil.cowan.tagsoup" name="tagsoup">
+			<revision name="1.2.1" status="release" pubdate="20110823020503" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://home.ccil.org/~cowan/XML/tagsoup/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3051" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.ccil.cowan.tagsoup/tagsoup/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="tagsoup" type="jar" ext="jar" status="no" details="" size="90722" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.ccil.cowan.tagsoup/tagsoup/jars/tagsoup-1.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-stax-api_1.0_spec">
+			<revision name="1.0.1" status="release" pubdate="20071227225214" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6154" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="geronimo-stax-api_1.0_spec" type="bundle" ext="jar" status="no" details="" size="28804" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec/bundles/geronimo-stax-api_1.0_spec-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml">
+			<revision name="3.10-beta2" status="release" pubdate="20130910024458" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.poi/poi-ooxml/ivy-3.10-beta2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.10-beta2/poi-ooxml-3.10-beta2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="poi-ooxml" type="jar" ext="jar" status="no" details="" size="1002756" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.poi/poi-ooxml/jars/poi-ooxml-3.10-beta2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.10-beta2/poi-ooxml-3.10-beta2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20060210213318" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dom4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<metadata-artifact status="no" details="" size="3851" time="0" location="/Users/nishida-takuro/.ivy2/cache/dom4j/dom4j/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="org.apache.poi" name="poi-ooxml" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="3.10-beta2"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="313898" time="0" location="/Users/nishida-takuro/.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml-schemas">
+			<revision name="3.10-beta2" status="release" pubdate="20130910024652" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2728" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.poi/poi-ooxml-schemas/ivy-3.10-beta2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/3.10-beta2/poi-ooxml-schemas-3.10-beta2.pom"/>
+				<caller organisation="org.apache.poi" name="poi-ooxml" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="3.10-beta2"/>
+				<artifacts>
+					<artifact name="poi-ooxml-schemas" type="jar" ext="jar" status="no" details="" size="4922434" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.poi/poi-ooxml-schemas/jars/poi-ooxml-schemas-3.10-beta2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/3.10-beta2/poi-ooxml-schemas-3.10-beta2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.xmlbeans" name="xmlbeans">
+			<revision name="2.3.0" status="release" pubdate="20070704111632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xmlbeans.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2662" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.xmlbeans/xmlbeans/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.pom"/>
+				<caller organisation="org.apache.poi" name="poi-ooxml-schemas" conf="compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="3.10-beta2"/>
+				<artifacts>
+					<artifact name="xmlbeans" type="jar" ext="jar" status="no" details="" size="2666695" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.xmlbeans/xmlbeans/jars/xmlbeans-2.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-scratchpad">
+			<revision name="3.10-beta2" status="release" pubdate="20130910024044" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2717" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.poi/poi-scratchpad/ivy-3.10-beta2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-scratchpad/3.10-beta2/poi-scratchpad-3.10-beta2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="poi-scratchpad" type="jar" ext="jar" status="no" details="" size="1246622" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.poi/poi-scratchpad/jars/poi-scratchpad-3.10-beta2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-scratchpad/3.10-beta2/poi-scratchpad-3.10-beta2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi">
+			<revision name="3.10-beta2" status="release" pubdate="20130910020438" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2960" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.poi/poi/ivy-3.10-beta2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.10-beta2/poi-3.10-beta2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="1.5"/>
+				<caller organisation="org.apache.poi" name="poi-scratchpad" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="3.10-beta2"/>
+				<caller organisation="org.apache.poi" name="poi-ooxml" conf="compile, runtime" rev="3.10-beta2" rev-constraint-default="3.10-beta2" rev-constraint-dynamic="3.10-beta2" callerrev="3.10-beta2"/>
+				<artifacts>
+					<artifact name="poi" type="jar" ext="jar" status="no" details="" size="1926741" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.poi/poi/jars/poi-3.10-beta2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.10-beta2/poi-3.10-beta2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcmail-jdk15">
+			<revision name="1.45" status="release" pubdate="20100111133102" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="3012" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.bouncycastle/bcmail-jdk15/ivy-1.45.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="bcmail-jdk15" type="jar" ext="jar" status="no" details="" size="229116" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.bouncycastle/bcmail-jdk15/jars/bcmail-jdk15-1.45.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk15">
+			<revision name="1.45" status="release" pubdate="20100111133027" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2661" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.bouncycastle/bcprov-jdk15/ivy-1.45.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="1.5"/>
+				<caller organisation="org.bouncycastle" name="bcmail-jdk15" conf="compile, runtime" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="1.45"/>
+				<artifacts>
+					<artifact name="bcprov-jdk15" type="jar" ext="jar" status="no" details="" size="1663318" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.bouncycastle/bcprov-jdk15/jars/bcprov-jdk15-1.45.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="pdfbox">
+			<revision name="1.8.4" status="release" pubdate="20140128030206" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4760" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.pdfbox/pdfbox/ivy-1.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/1.8.4/pdfbox-1.8.4.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.8.4" rev-constraint-default="1.8.4" rev-constraint-dynamic="1.8.4" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="pdfbox" type="bundle" ext="jar" status="no" details="" size="3997494" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.pdfbox/pdfbox/bundles/pdfbox-1.8.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/1.8.4/pdfbox-1.8.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="jempbox">
+			<revision name="1.8.4" status="release" pubdate="20140128030010" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3920" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.pdfbox/jempbox/ivy-1.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.8.4/jempbox-1.8.4.pom"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="compile, runtime" rev="1.8.4" rev-constraint-default="1.8.4" rev-constraint-dynamic="1.8.4" callerrev="1.8.4"/>
+				<artifacts>
+					<artifact name="jempbox" type="bundle" ext="jar" status="no" details="" size="50980" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.pdfbox/jempbox/bundles/jempbox-1.8.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.8.4/jempbox-1.8.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="fontbox">
+			<revision name="1.8.4" status="release" pubdate="20140128025945" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pdfbox.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4091" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.pdfbox/fontbox/ivy-1.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/1.8.4/fontbox-1.8.4.pom"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="compile, runtime" rev="1.8.4" rev-constraint-default="1.8.4" rev-constraint-dynamic="1.8.4" callerrev="1.8.4"/>
+				<artifacts>
+					<artifact name="fontbox" type="bundle" ext="jar" status="no" details="" size="205430" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.pdfbox/fontbox/bundles/fontbox-1.8.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/1.8.4/fontbox-1.8.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.5" status="release" pubdate="20130311151708" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9255" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="256241" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.2" status="release" pubdate="20130129232700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2403" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.tukaani/xz/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.2/xz-1.2.pom"/>
+				<caller organisation="org.apache.commons" name="commons-compress" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="xz" type="jar" ext="jar" status="no" details="" size="94816" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.tukaani/xz/jars/xz-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.2/xz-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-mime4j-dom">
+			<revision name="0.7.2" status="release" pubdate="20120107231138" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6292" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.james/apache-mime4j-dom/ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-dom/0.7.2/apache-mime4j-dom-0.7.2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="apache-mime4j-dom" type="jar" ext="jar" status="no" details="" size="304810" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.james/apache-mime4j-dom/jars/apache-mime4j-dom-0.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-dom/0.7.2/apache-mime4j-dom-0.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-mime4j-core">
+			<revision name="0.7.2" status="release" pubdate="20120107230924" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5863" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.james/apache-mime4j-core/ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="1.5"/>
+				<caller organisation="org.apache.james" name="apache-mime4j-dom" conf="compile, runtime" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="0.7.2"/>
+				<artifacts>
+					<artifact name="apache-mime4j-core" type="jar" ext="jar" status="no" details="" size="95536" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.james/apache-mime4j-core/jars/apache-mime4j-core-0.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="edu.ucar" name="netcdf">
+			<revision name="4.2-min" status="release" pubdate="20101124145532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.unidata.ucar.edu/software/netcdf-java/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="(MIT-style) netCDF C library license." url="http://www.unidata.ucar.edu/software/netcdf/copyright.html"/>
+				<metadata-artifact status="no" details="" size="2792" time="0" location="/Users/nishida-takuro/.ivy2/cache/edu.ucar/netcdf/ivy-4.2-min.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/edu/ucar/netcdf/4.2-min/netcdf-4.2-min.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="4.2-min" rev-constraint-default="4.2-min" rev-constraint-dynamic="4.2-min" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="netcdf" type="jar" ext="jar" status="no" details="" size="4326608" time="0" location="/Users/nishida-takuro/.ivy2/cache/edu.ucar/netcdf/jars/netcdf-4.2-min.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/edu/ucar/netcdf/4.2-min/netcdf-4.2-min.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.gagravarr" name="vorbis-java-tika">
+			<revision name="0.1" status="release" pubdate="20120204010651" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/Gagravarr/VorbisJava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3873" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.gagravarr/vorbis-java-tika/ivy-0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-tika/0.1/vorbis-java-tika-0.1.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.5"/>
+				<artifacts>
+					<artifact name="vorbis-java-tika" type="jar" ext="jar" status="no" details="" size="14752" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.gagravarr/vorbis-java-tika/jars/vorbis-java-tika-0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-tika/0.1/vorbis-java-tika-0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.gagravarr" name="vorbis-java-core">
+			<revision name="0.1" status="release" pubdate="20120204010542" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/Gagravarr/VorbisJava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3317" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.gagravarr/vorbis-java-core/ivy-0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.1/vorbis-java-core-0.1.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.5"/>
+				<caller organisation="org.gagravarr" name="vorbis-java-tika" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="vorbis-java-core" type="jar" ext="jar" extra-classifier="tests" status="no" details="" size="30301" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.gagravarr/vorbis-java-core/jars/vorbis-java-core-0.1-tests.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.1/vorbis-java-core-0.1-tests.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-core">
+			<revision name="1.5" status="release" pubdate="20140210063800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tika.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5146" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.tika/tika-core/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.5/tika-core-1.5.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.5"/>
+				<caller organisation="org.gagravarr" name="vorbis-java-tika" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tika-core" type="bundle" ext="jar" status="no" details="" size="493374" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.tika/tika-core/bundles/tika-core-1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.5/tika-core-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.5"/>
+				<caller organisation="org.gagravarr" name="vorbis-java-tika" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sleepycat" name="je">
+			<revision name="5.0.73" status="release" pubdate="20130515000456" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.oracle.com/technetwork/products/berkeleydb/overview/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Sleepycat License" url="http://download.oracle.com/maven/com/sleepycat/je/license.txt"/>
+				<metadata-artifact status="no" details="" size="3321" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.sleepycat/je/ivy-5.0.73.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sleepycat/je/5.0.73/je-5.0.73.pom"/>
+				<caller organisation="edu.uci.ics" name="crawler4j" conf="default, compile, runtime, master" rev="5.0.73" rev-constraint-default="5.0.73" rev-constraint-dynamic="5.0.73" callerrev="4.1"/>
+				<artifacts>
+					<artifact name="je" type="jar" ext="jar" status="no" details="" size="2487420" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.sleepycat/je/jars/je-5.0.73.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sleepycat/je/5.0.73/je-5.0.73.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.3.5" status="release" pubdate="20140731032404" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-client" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="5209" time="682" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.3.5.xml" searched="true" original-local-location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.3.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.pom"/>
+				<caller organisation="edu.uci.ics" name="crawler4j" conf="default, compile, runtime, master" rev="4.3.5" rev-constraint-default="4.3.5" rev-constraint-dynamic="4.3.5" callerrev="4.1"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="successful" details="" size="590533" time="2901" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.3.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.6" status="release" pubdate="20111203113826" resolver="public" artresolver="public" homepage="http://commons.apache.org/codec/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="11157" time="687" location="/Users/nishida-takuro/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml" searched="true" original-local-location="/Users/nishida-takuro/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.5"/>
+				<caller organisation="org.apache.poi" name="poi" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="3.10-beta2"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="4.3.5"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="successful" details="" size="232771" time="1508" location="/Users/nishida-takuro/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.5" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.6"/>
+				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.5"/>
+				<caller organisation="org.apache.poi" name="poi" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="3.10-beta2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.3.2" status="release" pubdate="20140213054411" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="successful" details="" size="4597" time="638" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.3.2.xml" searched="true" original-local-location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="4.3.2" rev-constraint-default="4.3.2" rev-constraint-dynamic="4.3.2" callerrev="4.3.5"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="successful" details="" size="282269" time="1651" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.3" status="release" pubdate="20130517050523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10350" time="0" location="/Users/nishida-takuro/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.8.4"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="4.3.5"/>
+				<caller organisation="org.apache.pdfbox" name="fontbox" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.8.4"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="62050" time="0" location="/Users/nishida-takuro/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.1.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.1.3"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.8.4"/>
+				<caller organisation="org.apache.pdfbox" name="fontbox" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.8.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="uk.org.lidalia" name="lidalia-slf4j-ext">
+			<revision name="1.0.0" status="release" pubdate="20130531163932" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://projects.lidalia.org.uk/${project.artifactId}" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="MIT X11 License" url="https://github.com/Mahoney/lidalia-parent/raw/master/X11-LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="20544" time="0" location="/Users/nishida-takuro/.ivy2/cache/uk.org.lidalia/lidalia-slf4j-ext/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/uk/org/lidalia/lidalia-slf4j-ext/1.0.0/lidalia-slf4j-ext-1.0.0.pom"/>
+				<caller organisation="edu.uci.ics" name="crawler4j" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="4.1"/>
+				<artifacts>
+					<artifact name="lidalia-slf4j-ext" type="jar" ext="jar" status="no" details="" size="14428" time="0" location="/Users/nishida-takuro/.ivy2/cache/uk.org.lidalia/lidalia-slf4j-ext/jars/lidalia-slf4j-ext-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/uk/org/lidalia/lidalia-slf4j-ext/1.0.0/lidalia-slf4j-ext-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="14.0.1" status="release" pubdate="20130315085719" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3904" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
+				<caller organisation="uk.org.lidalia" name="lidalia-slf4j-ext" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="guava" type="bundle" ext="jar" status="no" details="" size="2189117" time="0" location="/Users/nishida-takuro/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404201248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4481" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="edu.uci.ics" name="crawler4j" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="4.1"/>
+				<caller organisation="uk.org.lidalia" name="lidalia-slf4j-ext" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.0.0"/>
+				<caller organisation="edu.ucar" name="netcdf" conf="compile, runtime" rev="1.5.6" rev-constraint-default="1.5.6" rev-constraint-dynamic="1.5.6" callerrev="4.2-min"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.5.6" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.7"/>
+				<caller organisation="edu.ucar" name="netcdf" conf="compile, runtime" rev="1.5.6" rev-constraint-default="1.5.6" rev-constraint-dynamic="1.5.6" callerrev="4.2-min"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.5" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.7"/>
+				<caller organisation="uk.org.lidalia" name="lidalia-slf4j-ext" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.0.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.6" status="release" pubdate="20150918183528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.pom"/>
+				<caller organisation="default" name="web-crawler_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7132001" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

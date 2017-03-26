@@ -1,0 +1,205 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/nishida-takuro/git/tryCrawler/web-crawler/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+4 items
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> /Users/nishida-takuro/git/tryCrawler/web-crawler/target/scala-2.10/classes/BasicCrawlController$.class
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> /Users/nishida-takuro/git/tryCrawler/web-crawler/target/scala-2.10/classes/BasicCrawlController$delayedInit$body.class
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> /Users/nishida-takuro/git/tryCrawler/web-crawler/target/scala-2.10/classes/BasicCrawlController.class
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> /Users/nishida-takuro/git/tryCrawler/web-crawler/target/scala-2.10/classes/BasicCrawler.class
+binary dependencies:
+7 items
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> /Users/nishida-takuro/.ivy2/cache/edu.uci.ics/crawler4j/jars/crawler4j-4.1.jar
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> /Users/nishida-takuro/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> /Users/nishida-takuro/.ivy2/cache/edu.uci.ics/crawler4j/jars/crawler4j-4.1.jar
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> /Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.3.2.jar
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> /Users/nishida-takuro/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+1 items
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> /Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+4 items
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> BasicCrawlController
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> BasicCrawlController$
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> BasicCrawlController$delayedInit$body
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> BasicCrawler
+used names:
+101 items
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> <init>
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> App
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> BasicCrawlController
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> Boolean
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> Class
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> CrawlConfig
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> CrawlController
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> Int
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> Integer
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> Nothing
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> Object
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> PageFetcher
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> RobotstxtConfig
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> RobotstxtServer
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> String
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> T
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> Unit
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> WebCrawler
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> addSeed
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> config
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> controller
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> crawlStorageFolder
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> crawler
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> crawler4j
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> edu
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> fetcher
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> ics
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> java
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> lang
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> numberOfCrawlers
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> pageFetcher
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> parseInt
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> robotstxt
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> robotstxtConfig
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> robotstxtServer
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> scala
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> setCrawlStorageFolder
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> setIncludeBinaryContentInCrawling
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> setMaxDepthOfCrawling
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> setMaxPagesToFetch
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> setPolitenessDelay
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> setResumableCrawling
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> start
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> uci
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> +
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> <init>
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> Any
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> BasicCrawler
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> Boolean
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> CharSequence
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> Header
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> HtmlParseData
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> IMAGE_EXTENSIONS
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> Int
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> Matcher
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> Nothing
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> Page
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> Pattern
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> Predef
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> Set
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> String
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> Unit
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> WebCrawler
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> WebURL
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> anchor
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> apache
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> compile
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> crawler
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> crawler4j
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> docid
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> domain
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> edu
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> getAnchor
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> getDocid
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> getDomain
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> getParentUrl
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> getPath
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> getSubDomain
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> getURL
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> getWebURL
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> href
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> http
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> ics
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> java
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> matcher
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> matches
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> org
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> page
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> parentUrl
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> parser
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> path
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> println
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> regex
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> scala
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> shouldVisit
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> startsWith
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> subDomain
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> toLowerCase
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> uci
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> url
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> util
+product stamps:
+4 items
+/Users/nishida-takuro/git/tryCrawler/web-crawler/target/scala-2.10/classes/BasicCrawlController$.class -> lastModified(1490448081000)
+/Users/nishida-takuro/git/tryCrawler/web-crawler/target/scala-2.10/classes/BasicCrawlController$delayedInit$body.class -> lastModified(1490448081000)
+/Users/nishida-takuro/git/tryCrawler/web-crawler/target/scala-2.10/classes/BasicCrawlController.class -> lastModified(1490448081000)
+/Users/nishida-takuro/git/tryCrawler/web-crawler/target/scala-2.10/classes/BasicCrawler.class -> lastModified(1490449459000)
+source stamps:
+2 items
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> hash(b3101945056f0e0f0bef48cc5ceead29e529a55c)
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> hash(2bd8afd78dbd02259e41cc0aff7ffa1340ac59cb)
+binary stamps:
+4 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1428689516000)
+/Users/nishida-takuro/.ivy2/cache/edu.uci.ics/crawler4j/jars/crawler4j-4.1.jar -> lastModified(1422950192000)
+/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.3.2.jar -> lastModified(1392237846000)
+/Users/nishida-takuro/.sbt/boot/scala-2.10.6/lib/scala-library.jar -> lastModified(1442568926000)
+class names:
+4 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar -> java.util.regex.Matcher
+/Users/nishida-takuro/.ivy2/cache/edu.uci.ics/crawler4j/jars/crawler4j-4.1.jar -> edu.uci.ics.crawler4j.crawler.WebCrawler
+/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.3.2.jar -> org.apache.http.Header
+/Users/nishida-takuro/.sbt/boot/scala-2.10.6/lib/scala-library.jar -> scala.Unit
+internal apis:
+2 items
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwtSGFpAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAgc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwrwpLIHQABm5vdGlmeXNxAH4ADGm1Bfd0AAR3YWl0c3EAfgAMEkXSVHQADSRhc0luc3RhbmNlT2ZzcQB+AAyUZD8FdAAGZXF1YWxzc3EAfgAMExPx4HQAFEJhc2ljQ3Jhd2xDb250cm9sbGVyc3EAfgAMxKAjnHQAD3JvYm90c3R4dENvbmZpZ3NxAH4ADEnRw7B0AAxhc0luc3RhbmNlT2ZzcQB+AAw41Z8jdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAy4H6MIdAAMc3luY2hyb25pemVkc3EAfgAMzXasxXQAEG51bWJlck9mQ3Jhd2xlcnNzcQB+AAwEnramdAANJGlzSW5zdGFuY2VPZnNxAH4ADP+xlkJ0AAZjb25maWdzcQB+AAxp6bh/dAAEbWFpbnNxAH4ADLrVwql0AAlub3RpZnlBbGxzcQB+AAyQbObvdAAMaXNJbnN0YW5jZU9mc3EAfgAMftbfU3QAC3BhZ2VGZXRjaGVyc3EAfgAMgx25LXQAAj09c3EAfgAMRN21+XQABWNsb25lc3EAfgAMJS0T3XQABiRpbml0JHNxAH4ADJL1q0d0AApjb250cm9sbGVyc3EAfgAMc8obKnQACHRvU3RyaW5nc3EAfgAM2GAJ/3QABGFyZ3NzcQB+AAyUZXGsdAACIT1zcQB+AAwANGJUdAAIZ2V0Q2xhc3NzcQB+AAxwQG2bdAACbmVzcQB+AAyAPN37dAACZXFzcQB+AAz+L+iPdAAPcm9ib3RzdHh0U2VydmVyc3EAfgAMabFCl3QAC2RlbGF5ZWRJbml0c3EAfgAMmROGJ3QAAiMjc3EAfgAMQfMBWXQACGZpbmFsaXplc3EAfgAMifPAR3QACGhhc2hDb2Rlc3EAfgAM245OQnQAEmNyYXdsU3RvcmFnZUZvbGRlcnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AF3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AbnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBXTAAJaW5oZXJpdGVkcQB+AFdMAAdwYXJlbnRzcQB+AFd4cQB+AHNzcQB+AG51cQB+AFIAAAAAc3EAfgBudXEAfgBSAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBYcQB+AGF1cQB+AGIAAAAAc3EAfgBkAHEAfgAndXEAfgBmAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHJ0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgByc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCQdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AfXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AaXQABVBsYWlucQB+ADlzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AIRbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHJzcQB+AIN0AAVBcnJheXEAfgCJdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AIN0AAZTdHJpbmdzcQB+AIdzcQB+AIp1cQB+AI0AAAADc3EAfgCPdAAEamF2YXNxAH4Aj3QABGxhbmdxAH4AlHNxAH4AbnVxAH4ApwAAAARzcQB+AIN0AANBcHBxAH4AiXNxAH4Ag3QAC0RlbGF5ZWRJbml0cQB+AIlzcQB+AIN0AAZPYmplY3RxAH4Aq3NxAH4Ag3QAA0FueXEAfgCJdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVsFoNVRdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQASi9Vc2Vycy9uaXNoaWRhLXRha3Vyby9naXQvdHJ5Q3Jhd2xlci93ZWItY3Jhd2xlci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUsxAZRQVvDg8L70jMXO6tKeUppVw=
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwnJPicwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAqc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwZONwoXQABm5vdGlmeXNxAH4ADKclFbR0ABdvblBhZ2VCaWdnZXJUaGFuTWF4U2l6ZXNxAH4ADFEjeah0AAlnZXRUaHJlYWRzcQB+AAxspbHsdAAOZ2V0TXlMb2NhbERhdGFzcQB+AAx2mDNudAAEd2FpdHNxAH4ADAmnDF10AA0kYXNJbnN0YW5jZU9mc3EAfgAMRqQa23QABmVxdWFsc3NxAH4ADEgSRzV0AAtzaG91bGRWaXNpdHNxAH4ADF51FC50ABZoYW5kbGVVcmxCZWZvcmVQcm9jZXNzc3EAfgAMjddexHQADGFzSW5zdGFuY2VPZnNxAH4ADE384zB0AANydW5zcQB+AAwaIRsMdAAMc3luY2hyb25pemVkc3EAfgAMGhxrVHQADSRpc0luc3RhbmNlT2ZzcQB+AAzZZfShdAAMb25CZWZvcmVFeGl0c3EAfgAMbq3lyHQACW5vdGlmeUFsbHNxAH4ADGJHRTx0AAxpc0luc3RhbmNlT2ZzcQB+AAyoDMZvdAAGPGluaXQ+c3EAfgAMF894EnQAEElNQUdFX0VYVEVOU0lPTlNzcQB+AAzAUm17dAAWaXNOb3RXYWl0aW5nRm9yTmV3VVJMc3NxAH4ADMGmsaB0AAxCYXNpY0NyYXdsZXJzcQB+AAxHlkIUdAAEbXlJZHNxAH4ADLvLF5J0ABNvbkNvbnRlbnRGZXRjaEVycm9yc3EAfgAMAXhWi3QAAj09c3EAfgAMbt/7f3QADG15Q29udHJvbGxlcnNxAH4ADBwdJB10AAV2aXNpdHNxAH4ADEbrov10AAVjbG9uZXNxAH4ADOGe5Hx0AA9nZXRNeUNvbnRyb2xsZXJzcQB+AAy/yrpxdAAWb25VbmV4cGVjdGVkU3RhdHVzQ29kZXNxAH4ADL7hJ/l0AAh0b1N0cmluZ3NxAH4ADLL8Lcl0AAIhPXNxAH4ADH8pj7l0AAhnZXRDbGFzc3NxAH4ADAVQiw90AAdnZXRNeUlkc3EAfgAMPhtMRnQACXNldFRocmVhZHNxAH4ADP7b8190AAJuZXNxAH4ADIV2Ss10AAdvblN0YXJ0c3EAfgAMiYKIdHQADG9uUGFyc2VFcnJvcnNxAH4ADPf/jS90AARpbml0c3EAfgAMJGj4AnQAAmVxc3EAfgAMSnxSpHQAAiMjc3EAfgAMJuWm/nQACGZpbmFsaXplc3EAfgAMEmaK73QACGhhc2hDb2Rlc3EAfgAMAHik4HQAFGhhbmRsZVBhZ2VTdGF0dXNDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Aa3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgA1dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Aa0wACWluaGVyaXRlZHEAfgBrTAAHcGFyZW50c3EAfgBreHEAfgCHc3EAfgCCdXEAfgBmAAAAAHNxAH4AgnVxAH4AZgAAAABzcQB+AIJ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIZ0AApXZWJDcmF3bGVyc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCGc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAGc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANlZHVzcQB+AJ90AAN1Y2lzcQB+AJ90AANpY3NzcQB+AJ90AAljcmF3bGVyNGpzcQB+AJ90AAdjcmF3bGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKBzcQB+AJN0AAhSdW5uYWJsZXNxAH4Al3NxAH4AmnVxAH4AnQAAAANzcQB+AJ90AARqYXZhc3EAfgCfdAAEbGFuZ3EAfgCsc3EAfgCTdAAGT2JqZWN0cQB+AK9zcQB+AJN0AANBbnlzcQB+AJdzcQB+AJp1cQB+AJ0AAAACc3EAfgCfdAAFc2NhbGFxAH4ArHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbBbXiBHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEovVXNlcnMvbmlzaGlkYS10YWt1cm8vZ2l0L3RyeUNyYXdsZXIvd2ViLWNyYXdsZXIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFCvYr9eNvQIlnkHMCv9/+hNArFnL
+external apis:
+0 items
+source infos:
+2 items
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawlController.scala -> 
+AAAAAAAAAAA=
+/Users/nishida-takuro/git/tryCrawler/web-crawler/src/main/scala/BasicCrawler.scala -> 
+AAAAAAAAAAA=
+compilations:
+6 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWwWCQ/p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9uaXNoaWRhLXRha3Vyby9naXQvdHJ5Q3Jhd2xlci93ZWItY3Jhd2xlci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWwWfLD91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9uaXNoaWRhLXRha3Vyby9naXQvdHJ5Q3Jhd2xlci93ZWItY3Jhd2xlci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWwWg1VF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9uaXNoaWRhLXRha3Vyby9naXQvdHJ5Q3Jhd2xlci93ZWItY3Jhd2xlci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWwWpIUl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9uaXNoaWRhLXRha3Vyby9naXQvdHJ5Q3Jhd2xlci93ZWItY3Jhd2xlci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWwWsOlJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9uaXNoaWRhLXRha3Vyby9naXQvdHJ5Q3Jhd2xlci93ZWItY3Jhd2xlci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWwW14gR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9uaXNoaWRhLXRha3Vyby9naXQvdHJ5Q3Jhd2xlci93ZWItY3Jhd2xlci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
