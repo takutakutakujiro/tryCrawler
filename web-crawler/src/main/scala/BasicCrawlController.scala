@@ -1,4 +1,6 @@
-import edu.uci.ics.crawler4j._
+import edu.uci.ics.crawler4j.crawler.{CrawlConfig,CrawlController};
+import edu.uci.ics.crawler4j.fetcher.PageFetcher;
+import edu.uci.ics.crawler4j.robotstxt.{RobotstxtConfig,RobotstxtServer};
 
 object BasicCrawlController extends App{
 
@@ -41,7 +43,7 @@ object BasicCrawlController extends App{
     val controller = new CrawlController(config, pageFetcher, robotstxtServer);
 
     // クロールするサイトを追加(複数追加可能)
-    controller.addSeed("http://takujiro.net/");
+    controller.addSeed("http://suumo.jp/ikkodate/tokyo/sc_setagaya/");
 
     // クロールスタート
     controller.start(classOf[BasicCrawler], numberOfCrawlers);

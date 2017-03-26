@@ -1,7 +1,9 @@
 
-import java.util.regex.Pattern;
+import java.util.regex.Pattern
 
-import edu.uci.ics.crawler4j._
+import edu.uci.ics.crawler4j.crawler.{Page,WebCrawler};
+import edu.uci.ics.crawler4j.parser.HtmlParseData;
+import edu.uci.ics.crawler4j.url.WebURL;
 
 class BasicCrawler extends WebCrawler {
 
@@ -18,7 +20,7 @@ class BasicCrawler extends WebCrawler {
             return false
         }
 
-        return href.startsWith("http://takujiro.net/")
+        return href.startsWith("http://suumo.jp/ikkodate/tokyo/sc_setagaya/")
     }
 
     /*
@@ -36,10 +38,10 @@ class BasicCrawler extends WebCrawler {
 
         println("Docid: {" + docid + "}")
         println("URL: {" + url + "}")
-        println("Domain: {" + domain + "}")
-        println("Sub-domain: {" + subDomain + "}")
-        println("Path: {" + path + "}")
-        println("Parent page: {" + parentUrl + "}")
-        println("Anchor text: {" + anchor + "}")
+        // println("Domain: {" + domain + "}")
+        // println("Sub-domain: {" + subDomain + "}")
+        // println("Path: {" + path + "}")
+        // println("Parent page: {" + parentUrl + "}")
+        // println("Anchor text: {" + anchor + "}")
     }
 }
