@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170325224359"/>
+		date="20170327015952"/>
 	<dependencies>
 		<module organisation="edu.uci.ics" name="crawler4j">
 			<revision name="4.1" status="release" pubdate="20150203165633" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/yasserg/crawler4j" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
@@ -453,26 +453,26 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpclient">
-			<revision name="4.3.5" status="release" pubdate="20140731032404" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-client" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+			<revision name="4.3.5" status="release" pubdate="20140731032404" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="5209" time="682" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.3.5.xml" searched="true" original-local-location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.3.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.pom"/>
+				<metadata-artifact status="no" details="" size="9641" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.3.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.pom"/>
 				<caller organisation="edu.uci.ics" name="crawler4j" conf="default, compile, runtime, master" rev="4.3.5" rev-constraint-default="4.3.5" rev-constraint-dynamic="4.3.5" callerrev="4.1"/>
 				<artifacts>
-					<artifact name="httpclient" type="jar" ext="jar" status="successful" details="" size="590533" time="2901" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.3.5.jar">
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="590533" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.3.5.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
-			<revision name="1.6" status="release" pubdate="20111203113826" resolver="public" artresolver="public" homepage="http://commons.apache.org/codec/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+			<revision name="1.6" status="release" pubdate="20111203113826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="11157" time="687" location="/Users/nishida-takuro/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml" searched="true" original-local-location="/Users/nishida-takuro/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
+				<metadata-artifact status="no" details="" size="7802" time="0" location="/Users/nishida-takuro/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
 				<caller organisation="org.apache.tika" name="tika-parsers" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.5"/>
 				<caller organisation="org.apache.poi" name="poi" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="3.10-beta2"/>
 				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="4.3.5"/>
 				<artifacts>
-					<artifact name="commons-codec" type="jar" ext="jar" status="successful" details="" size="232771" time="1508" location="/Users/nishida-takuro/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar">
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="232771" time="0" location="/Users/nishida-takuro/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
 					</artifact>
 				</artifacts>
@@ -486,12 +486,12 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpcore">
-			<revision name="4.3.2" status="release" pubdate="20140213054411" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+			<revision name="4.3.2" status="release" pubdate="20140213054411" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
 				<license name="Apache License, Version 2.0" url="LICENSE.txt"/>
-				<metadata-artifact status="successful" details="" size="4597" time="638" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.3.2.xml" searched="true" original-local-location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom"/>
+				<metadata-artifact status="no" details="" size="7498" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom"/>
 				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="4.3.2" rev-constraint-default="4.3.2" rev-constraint-dynamic="4.3.2" callerrev="4.3.5"/>
 				<artifacts>
-					<artifact name="httpcore" type="jar" ext="jar" status="successful" details="" size="282269" time="1651" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.3.2.jar">
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="282269" time="0" location="/Users/nishida-takuro/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.3.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar"/>
 					</artifact>
 				</artifacts>

@@ -2,13 +2,13 @@ import edu.uci.ics.crawler4j.crawler.{CrawlConfig,CrawlController};
 import edu.uci.ics.crawler4j.fetcher.PageFetcher;
 import edu.uci.ics.crawler4j.robotstxt.{RobotstxtConfig,RobotstxtServer};
 
-object BasicCrawlController extends App{
+object BasicCrawlController {
 
     // クロールしたデータを保存しておくフォルダ
     val crawlStorageFolder = "./cache";
 
     // クロールを行うスレッド数
-    val numberOfCrawlers = Integer.parseInt("10");
+    val numberOfCrawlers = Integer.parseInt("1");
 
     // クロールのコンフィグを初期化
     val config = new CrawlConfig();

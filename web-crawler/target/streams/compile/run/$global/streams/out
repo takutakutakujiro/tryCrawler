@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mRunning BasicCrawlController [0m
+[0m[[0minfo[0m] [0mRunning MainApplication [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/Users/nishida-takuro/git/tryCrawler/web-crawler/target/scala-2.10/classes[0m
